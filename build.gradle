@@ -27,12 +27,14 @@ dependencies {
     compile('org.springframework.session:spring-session')
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile('com.google.guava:guava:22.0')
+    compile('org.apache.commons:commons-lang3:3.0')
 
     runtime('org.springframework.boot:spring-boot-devtools')
 
-    compileOnly('org.projectlombok:lombok')
+    compileOnly('org.projectlombok:lombok:1.16.16')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile('junit:junit:4.12')
     testCompile('org.mockito:mockito-core:2.8.9')
+    testCompile('com.google.truth:truth:0.33')
 }
